@@ -1,4 +1,3 @@
-
 # Effects of Pressure and Temperature on Part Resistance for Machine 1
 
 :::::::::::::: {.columns}
@@ -58,7 +57,7 @@ We utilized a Two-Way ANOVA method to isolate the effects of two primary factors
 | Temperature ($T$) | 0.0000 | **Significant** |
 | Interaction ($P\times T$) | 0.0183 | **Significant** |
 
-**All factors exceed the confidence threshold.**
+**All factors exceed the threshold.**
 :::
 
 ::: {.column width="50%"}
@@ -66,7 +65,7 @@ We utilized a Two-Way ANOVA method to isolate the effects of two primary factors
 :::
 
 ::: notes
-The data shows that both Pressure and Temperature have highly significant independent effects (p < 0.0001). Crucially, the interaction between them is also significant at 0.0183, suggesting the effect of pressure depends on the current temperature.
+The data shows that both Pressure and Temperature have highly significant independent effects. Crucially, the interaction between them is also significant at 0.0183, suggesting the effect of pressure depends on the current temperature.
 :::
 ::::::::::::::
 
@@ -112,7 +111,6 @@ Implement a coupled control loop for Pressure and Temperature for Machine 1 to m
 In conclusion, we have statistically validated that Pressure, Temperature, and their interaction are critical to Machine 1's output. Future process improvements should prioritize the stabilization of these two factors in tandem.
 :::
 ::::::::::::::
-
 ---
 # Bibliography
 <div id="refs"></div>
