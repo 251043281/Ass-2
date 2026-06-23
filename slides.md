@@ -89,3 +89,24 @@ The work done $W$ is positive when the system expands against an external pressu
 </iframe>
 :::
 ::::
+
+---
+
+# Machine 1: Resistance Analysis
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+### Impact of P & T
+Analysis of Machine 1 shows how Pressure ($P$) and Temperature ($T$) influence product quality:
+
+- **Pressure**: Evaluates if mechanical load affects resistance.
+- **Temperature**: Evaluates thermal impacts on material properties.
+- **Interaction**: Checks if the effect of Pressure changes at different Temperatures.
+
+*Note: Lower resistance is preferred (USL = 10).*
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/m1_resistance.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::::::::::::
