@@ -567,7 +567,7 @@ class="slide level1">
 <div class="column" style="width:50%;">
 <h2 id="study-overview">Study Overview</h2>
 <p><strong>Objective:</strong> To assess the statistical significance of
-varying environmental and mechanical parameters on product quality.</p>
+environmental and mechanical parameters on product quality.</p>
 <ul>
 <li><strong>Focus:</strong> Machine 1 Performance</li>
 <li><strong>Target:</strong> Part Resistance <span
@@ -578,9 +578,10 @@ class="math inline">\(\Omega\)</span></li>
 <p><img
 data-src="https://img.icons8.com/fluency/200/engineering.png" /></p>
 <aside class="notes">
-<p>Welcome. Today we are presenting the analysis of Machine 1, focusing
-on how pressure and temperature variables impact the final part
-resistance.</p>
+<p>Welcome. Today we present the analysis of Machine 1, focusing on how
+pressure and temperature variables impact the final part resistance. Our
+objective is to identify key drivers of resistance to ensure product
+consistency.</p>
 </aside>
 </div><hr /><section id="methodology-parameters" class="slide level1">
 <h1>Methodology &amp; Parameters</h1>
@@ -604,7 +605,8 @@ T\)</span>):</strong> Synergistic effects</li>
 data-src="https://img.icons8.com/fluency/200/test-tube.png" /></p>
 <aside class="notes">
 <p>We utilized a Two-Way ANOVA method to isolate the effects of two
-primary factors.</p>
+primary factors. Resistance is our critical quality metric, tested at a
+95% confidence interval.</p>
 </aside>
 </div>
 </section>
@@ -642,11 +644,16 @@ class="math inline">\(P\times T\)</span>)</td>
 </tr>
 </tbody>
 </table>
-<p><strong>All factors exceed the threshold.</strong></p>
+<p><strong>All factors exceed the 95% threshold.</strong></p>
 </div><div class="column" style="width:50%;">
 <iframe data-src="media/plots/m1_resistance.html" width="100%" height="450px" style="border:none;">
 </iframe>
-</div>
+</div><aside class="notes">
+<p>The data shows that both Pressure and Temperature have highly
+significant independent effects. Crucially, the interaction between them
+is also significant at 0.0183, suggesting the effect of pressure depends
+on the current temperature.</p>
+</aside>
 </div>
 </section>
 <section id="discussion-of-effects" class="slide level1">
@@ -657,35 +664,40 @@ class="math inline">\(P\times T\)</span>)</td>
 <ul>
 <li><strong>Main Effects:</strong> Both <span
 class="math inline">\(P\)</span> and <span
-class="math inline">\(T\)</span> are primary drivers of Part Resistance
-variation.</li>
+class="math inline">\(T\)</span> are primary drivers of variation.</li>
 <li><strong>Interaction Complexity:</strong> The significant <span
 class="math inline">\(P\times T\)</span> interaction implies synergistic
-effects.</li>
+effects between load and heat.</li>
 <li><strong>Optimization:</strong> Process control must account for both
-variables.</li>
+variables simultaneously to maintain resistance quality.</li>
 </ul>
 </div><div class="column" style="width:50%;">
 <p><img
 data-src="https://img.icons8.com/fluency/200/workflow.png" /></p>
-</div>
-</div>
-</section>
-<section id="conclusion" class="slide level1">
+<aside class="notes">
+<p>It is not enough to look at pressure or temperature in isolation.
+Because the interaction is significant, the engineering team must
+develop a multi-variable control strategy to hit the target resistance
+values efficiently.</p>
+</aside>
+</div><hr /><section id="conclusion" class="slide level1">
 <h1>Conclusion</h1>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="final-verdict">Final Verdict</h3>
-<ul>
-<li>✅ <strong>Pressure</strong> significant.</li>
-<li>✅ <strong>Temperature</strong> significant.</li>
-<li>✅ <strong>Interaction Effect</strong> validated.</li>
-</ul>
+<p>:::::::::::::: {.columns} ::: {.column width=“50%”} ### Final Verdict
+- ✅ <strong>Pressure</strong> significant effect. - ✅
+<strong>Temperature</strong> significant effect. - ✅
+<strong>Interaction Effect</strong> validated.</p>
 <p><strong>Recommendation:</strong> Implement a coupled control loop for
-Pressure and Temperature for Machine 1.</p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="https://img.icons8.com/fluency/200/checked.png" /></p>
+Pressure and Temperature for Machine 1 to minimize Part Resistance.</p>
+</section>
 </div>
+<div class="column" style="width:50%;">
+<p><img data-src="https://img.icons8.com/fluency/200/checked.png" /></p>
+<aside class="notes">
+<p>In conclusion, we have statistically validated that Pressure,
+Temperature, and their interaction are critical to Machine 1’s output.
+Future process improvements should prioritize the stabilization of these
+two factors in tandem.</p>
+</aside>
 </div>
 </section>
 <section id="bibliography" class="slide level1">
