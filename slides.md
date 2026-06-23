@@ -1,23 +1,26 @@
 # Effects of Pressure and Temperature on Part Resistance for Machine 1
 
 ## Study Overview
-- Evaluate the effects of Pressure and Temperature on quality
-- Determine statistical significance using Two-Way ANOVA
-- Focus on Machine 1 performance optimization
-- Ensure product resistance consistency
+
+- **Objective**: Evaluate the impact of Pressure and Temperature
+- **Method**: Statistical significance via Two-Way ANOVA
+- **Target**: Machine 1 performance optimization
+- **Goal**: Ensure consistent product resistance
 
 ::: notes
-Welcome. Today we present the analysis of Machine 1, focusing on how pressure and temperature variables impact the final part resistance.
+Welcome. Today we analyze Machine 1 performance focusing on environmental factors.
 :::
 
 ---
 
 # Methodology
 
-- **Response Variable:** Part Resistance
-- **Factors:** Pressure and Temperature
-- **Analysis Method:** Two-Way ANOVA
-- **Significance Level:** $\alpha = 0.05$
+### Experimental Framework
+
+- **Response Variable**: Part Resistance ($\Omega$)
+- **Factors**: Pressure ($P$) and Temperature ($T$)
+- **Analysis**: Two-Way ANOVA
+- **Significance**: $\alpha = 0.05$ threshold
 
 ![](https://img.icons8.com/fluency/200/test-tube.png)
 
@@ -25,11 +28,13 @@ Welcome. Today we present the analysis of Machine 1, focusing on how pressure an
 
 # Statistical Results
 
+### ANOVA Summary Table
+
 | Factor | p-value | Significance |
 | :--- | :--- | :--- |
-| Pressure ($P$) | 0.0000 | Significant |
-| Temperature ($T$) | 0.0000 | Significant |
-| Pressure × Temperature | 0.0183 | Significant |
+| Pressure ($P$) | 0.0000 | **Significant** |
+| Temperature ($T$) | 0.0000 | **Significant** |
+| Interaction ($P \times T$) | 0.0183 | **Significant** |
 
 <iframe data-src='media/plots/m1_resistance.html' width='100%' height='400px' style='border:none;'></iframe>
 
@@ -37,10 +42,12 @@ Welcome. Today we present the analysis of Machine 1, focusing on how pressure an
 
 # Interpretation
 
-- Pressure significantly affects resistance
-- Temperature significantly affects resistance
-- Interaction effect is statistically significant
-- Product resistance changes when these factors vary
+### Key Findings
+
+- **Pressure**: Highly significant primary driver
+- **Temperature**: Highly significant primary driver
+- **Interaction**: Synergistic effect detected ($p < 0.05$)
+- **Variation**: Quality depends on both factors simultaneously
 
 ![](https://img.icons8.com/fluency/200/workflow.png)
 
@@ -48,9 +55,11 @@ Welcome. Today we present the analysis of Machine 1, focusing on how pressure an
 
 # Conclusion
 
-- All tested factors are statistically significant
-- Process conditions should be strictly controlled
-- Findings help improve product quality
-- Implement coupled control loop for Machine 1
+### Final Summary
+
+- All factors confirmed as statistically significant
+- Process stability requires strict control limits
+- Recommendations will improve overall product quality
+- Implementation of coupled control loops advised
 
 ![](https://img.icons8.com/fluency/200/checked.png)
