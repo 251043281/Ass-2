@@ -14,7 +14,7 @@
 ![](https://img.icons8.com/fluency/200/engineering.png)
 
 ::: notes
-Welcome. Today we are presenting the analysis of Machine 1, focusing on how pressure and temperature variables impact the final part resistance. Our primary objective is to identify key drivers of resistance to ensure product consistency.
+Welcome. Today we are presenting the analysis of Machine 1, focusing on how pressure and temperature variables impact the final part resistance.
 :::
 ::::::::::::::
 
@@ -39,7 +39,7 @@ Welcome. Today we are presenting the analysis of Machine 1, focusing on how pres
 ![](https://img.icons8.com/fluency/200/test-tube.png)
 
 ::: notes
-We utilized a Two-Way ANOVA method to isolate the effects of two primary factors. Resistance is our critical quality metric. We are testing at a 95% confidence interval to ensure statistical robustness.
+We utilized a Two-Way ANOVA method to isolate the effects of two primary factors.
 :::
 ::::::::::::::
 
@@ -63,10 +63,6 @@ We utilized a Two-Way ANOVA method to isolate the effects of two primary factors
 ::: {.column width="50%"}
 <iframe data-src='media/plots/m1_resistance.html' width='100%' height='450px' style='border:none;'></iframe>
 :::
-
-::: notes
-The data shows that both Pressure and Temperature have highly significant independent effects. Crucially, the interaction between them is also significant at 0.0183, suggesting the effect of pressure depends on the current temperature.
-:::
 ::::::::::::::
 
 ---
@@ -77,15 +73,12 @@ The data shows that both Pressure and Temperature have highly significant indepe
 ::: {.column width="50%"}
 ### Key Insights
 - **Main Effects:** Both $P$ and $T$ are primary drivers of Part Resistance variation.
-- **Interaction Complexity:** The significant $P\times T$ interaction implies that adjusting pressure will yield different results depending on the thermal state of the machine.
-- **Optimization:** Process control must account for both variables simultaneously.
+- **Interaction Complexity:** The significant $P\times T$ interaction implies synergistic effects.
+- **Optimization:** Process control must account for both variables.
 :::
 
 ::: {.column width="50%"}
 ![](https://img.icons8.com/fluency/200/workflow.png)
-
-::: notes
-It is not enough to look at pressure or temperature in isolation. Because the interaction is significant, the engineering team must develop a multi-variable control strategy to hit the target resistance values efficiently.
 :::
 ::::::::::::::
 
@@ -96,19 +89,16 @@ It is not enough to look at pressure or temperature in isolation. Because the in
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
 ### Final Verdict
-- ✅ **Pressure** significantly affects resistance.
-- ✅ **Temperature** significantly affects resistance.
-- ✅ **Interaction Effect** is present and validated.
+- ✅ **Pressure** significant.
+- ✅ **Temperature** significant.
+- ✅ **Interaction Effect** validated.
 
 **Recommendation:** 
-Implement a coupled control loop for Pressure and Temperature for Machine 1 to maintain Resistance below the USL of 10.
+Implement a coupled control loop for Pressure and Temperature for Machine 1.
 :::
 
 ::: {.column width="50%"}
 ![](https://img.icons8.com/fluency/200/checked.png)
-
-::: notes
-In conclusion, we have statistically validated that Pressure, Temperature, and their interaction are critical to Machine 1's output. Future process improvements should prioritize the stabilization of these two factors in tandem.
 :::
 ::::::::::::::
 ---
